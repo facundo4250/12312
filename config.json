@@ -1,0 +1,170 @@
+{
+  "pharmacy": {
+    "name": "Farmacia Nieto",
+    "director": "Patricia Victoria Nieto",
+    "university": "Universidad de San Luis",
+    "experience_years": 28,
+    "since_year": 1996,
+    "location": {
+      "city": "Bahía Blanca",
+      "province": "Buenos Aires",
+      "country": "Argentina"
+    }
+  },
+  "contact": {
+    "whatsapp": {
+      "number": "+5492914327031",
+      "formatted": "(+54) 291432-7031"
+    },
+    "email": "farmacia.nieto@hotmail.com",
+    "schedule": {
+      "weekdays": {
+        "days": "Lunes a Viernes",
+        "hours": "8:00 - 20:00"
+      },
+      "saturday": {
+        "day": "Sábado",
+        "hours": "8:00 - 13:00"
+      },
+      "emergency": "Contactar por WhatsApp"
+    }
+  },
+  "services": [
+    {
+      "id": "ortomolecular",
+      "name": "Medicina Ortomolecular",
+      "icon": "🧬",
+      "description": "Tratamientos personalizados basados en el equilibrio molecular óptimo",
+      "enabled": true
+    },
+    {
+      "id": "dermocosmetica",
+      "name": "Dermocosmética Especializada",
+      "icon": "💆‍♀️",
+      "description": "Productos especializados para el cuidado de la piel",
+      "enabled": true
+    },
+    {
+      "id": "homeopatia",
+      "name": "Homeopatía Clásica",
+      "icon": "🌿",
+      "description": "Preparaciones homeopáticas tradicionales",
+      "enabled": true
+    },
+    {
+      "id": "alopatica",
+      "name": "Medicina Alopática Magistral",
+      "icon": "💊",
+      "description": "Medicamentos alopáticos preparados magistralmente",
+      "enabled": true
+    },
+    {
+      "id": "fitoterapia",
+      "name": "Fitoterapia Avanzada",
+      "icon": "🌱",
+      "description": "Tratamientos naturales a base de plantas medicinales",
+      "enabled": true
+    },
+    {
+      "id": "florales",
+      "name": "Florales de Bach",
+      "icon": "🌸",
+      "description": "Esencias florales para el equilibrio emocional",
+      "enabled": true
+    },
+    {
+      "id": "probioticos",
+      "name": "Probióticos Especializados",
+      "icon": "🦠",
+      "description": "Formulaciones probióticas para la flora intestinal",
+      "enabled": true
+    },
+    {
+      "id": "hormonas",
+      "name": "Hormonas Bioidénticas",
+      "icon": "⚖️",
+      "description": "Terapias hormonales personalizadas",
+      "enabled": true
+    },
+    {
+      "id": "asesoria",
+      "name": "Análisis y Asesoramiento",
+      "icon": "🔬",
+      "description": "Consultoría farmacéutica especializada",
+      "enabled": true
+    }
+  ],
+  "features": {
+    "lab_certified": true,
+    "quality_control": true,
+    "professional_staff": true,
+    "post_treatment_followup": true,
+    "continuous_training": true,
+    "medical_collaboration": true
+  },
+  "statistics": {
+    "years_experience": 28,
+    "patients_served": 5000,
+    "medical_specialties": 9,
+    "satisfaction_rate": 100
+  },
+  "theme": {
+    "colors": {
+      "primary_green": "#2c5530",
+      "secondary_green": "#4a8b3a",
+      "accent_green": "#6ba54a",
+      "light_green": "#e8f5e8",
+      "dark_green": "#1a3d1f",
+      "gold": "#d4af37",
+      "light_gold": "#f4e6a1",
+      "whatsapp": "#25D366"
+    },
+    "fonts": {
+      "body": "Inter",
+      "heading": "Playfair Display"
+    }
+  },
+  "seo": {
+    "title": "Farmacia Nieto - Elaboración Magistral Personalizada | Bahía Blanca",
+    "description": "Farmacia especializada en elaboración magistral personalizada. 28+ años de experiencia. Patricia Victoria Nieto - Universidad de San Luis.",
+    "keywords": [
+      "farmacia",
+      "elaboración magistral",
+      "medicina ortomolecular",
+      "dermocosmética",
+      "homeopatía",
+      "fitoterapia",
+      "Bahía Blanca",
+      "Buenos Aires",
+      "Patricia Nieto"
+    ]
+  },
+  "social_media": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "api": {
+    "version": "1.0.0",
+    "base_url": "http://localhost:3000/api",
+    "endpoints": {
+      "contact": "/contact",
+      "products": "/products",
+      "services": "/services",
+      "appointments": "/appointments"
+    }
+  },
+  "inventory_settings": {
+    "low_stock_threshold": 10,
+    "expiration_warning_days": 30,
+    "auto_reorder": false,
+    "stock_check_frequency": "daily"
+  },
+  "notifications": {
+    "email_enabled": true,
+    "whatsapp_enabled": true,
+    "low_stock_alert": true,
+    "expiration_alert": true,
+    "new_order_alert": true
+  }
+}
